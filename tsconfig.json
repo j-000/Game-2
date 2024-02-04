@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ES6",
+    "outDir": "./dist"
+  },
+  "include": [
+    "./static/*.ts", "static/actors/column.ts", "static/utils/CircleHitBox.ts", "static/actors/player.ts", "static/actors/projectile.ts", "static/utils/timer.ts", "static/utils/vector2d.ts", "static/utils/EventsEngine.ts",
+  ]
+}

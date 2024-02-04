@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game 2</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="hidden">
+        <img id="background" src="assets/background.png">
+        <img id="player" src="assets/player.png">
+    </div>
+    <canvas id="canvas1"></canvas>
+
+    <!-- Import Utils First -->
+    <script src="dist/utils/CircleHitBox.js"></script>
+    <script src="dist/utils/EventsEngine.js"></script>
+    <script src="dist/utils/timer.js"></script>
+    <script src="dist/utils/vector2d.js"></script>
+
+    <!-- These depend on utils -->
+    <script src="dist/actors/column.js"></script>
+    <script src="dist/actors/player.js"></script>
+    <script src="dist/actors/projectile.js"></script>
+
+
+    <script src="dist/main.js"></script>
+</body>
+</html>
