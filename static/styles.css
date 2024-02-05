@@ -1,7 +1,7 @@
 canvas {
     width: 99vw;
     height: 99vh;
-    background-image: url('./../assets/background.png');
+    /* background-image: url('./../assets/background.png'); */
 }
 
 .hidden {
